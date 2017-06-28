@@ -1,5 +1,4 @@
 var React = require('react.min');
-// var createReactClass = require('create-react-class');
 
 var HomeBox = React.createClass({
    render:function(){
@@ -15,18 +14,6 @@ var HomeBox = React.createClass({
    }
 });
 
-// class HomeBox extends React.Component{
-//     render() {
-//         // Console.log('pow');
-//         return (
-//             React.createElement('div',null,
-//                 React.createElement('p',null,"This is a react component."))
-//         );
-//     }
-// }
-
-// console.log('pow');
-
 var renderClient = function(data){
     React.render(
         React.createElement(HomeBox, null,null),
@@ -40,4 +27,3 @@ var renderServer = function(data){
         React.createElement(HomeBox, {data: data},null)
     );
 };
-

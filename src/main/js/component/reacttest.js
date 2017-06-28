@@ -1,8 +1,4 @@
 import React from 'react';
-// import ReactDom from 'react-dom';
-// import ReactDomServer from 'react-dom/server';
-
-// Console.log('pow0');
 
 class HomeBox extends React.Component{
     constructor(){
@@ -10,11 +6,9 @@ class HomeBox extends React.Component{
     }
 
     componentDidMount(){
-
     }
 
     render() {
-        // Console.log('pow');
         return (
             <div>
                 <p>This is a react component with extra data: ${this.props.data}</p>
@@ -22,15 +16,6 @@ class HomeBox extends React.Component{
     );
     }
 }
-
-// ReactDom.render(
-{/*<HomeBox/>*/}
-// ,document.getElementById("mainColumn"));
-
-// Console.log('pow1');
-// let outhtml = ReactDomServer.renderToString(
-//     <HomeBox/>
-// );
 
 var renderClient = function(data){
     React.render(

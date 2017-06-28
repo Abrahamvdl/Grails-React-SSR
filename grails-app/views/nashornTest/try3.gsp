@@ -13,7 +13,6 @@
 
 <body>
     <p>Taglib test</p>
-    %{--<g:renderReact jsFile="${reactssr_test.JSFiles.app2}" inData="${[show: 'this is some data'] as grails.converters.JSON}"/>--}%
     <g:renderReact jsFile="${'app2.entry.js'}" inData="${[show: 'this is some new new data'] as grails.converters.JSON}"/>
 </body>
 </html>
