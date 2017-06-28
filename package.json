@@ -1,0 +1,26 @@
+{
+  "name": "reactssr_test",
+  "version": "1.0.0",
+  "description": "This is just a test to get react working with grails in a serverside rendering environment.",
+  "main": "reacttest.js",
+  "scripts": {
+    "bundle": "webpack",
+    "watch": "webpack --watch --colors --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abraham van der Linde",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "react": "^15.6.0",
+    "react-dom": "^15.6.1",
+    "react-server": "^0.6.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^2.6.1"
+  }
+}
